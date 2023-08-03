@@ -1,0 +1,11 @@
+.container {
+  height: auto;
+  position: relative;
+  width: 100%;
+  padding: 50px 0;
+  z-index: 999;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  background-color: #2C2C2C;
+  bottom: 0;
+}

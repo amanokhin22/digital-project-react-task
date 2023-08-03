@@ -1,3 +1,7 @@
+.main {
+  max-width: 1192px;
+  margin: 0 auto;
+}
 .swiper_container {
   display: flex;
   position: relative;
@@ -5,6 +9,7 @@
   justify-content: space-between;
   top: 120px;
   overflow-x: hidden;
+  margin-bottom: 100px;
 }
 
 .left_container {

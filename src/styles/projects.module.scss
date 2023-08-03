@@ -1,0 +1,114 @@
+.projects_main {
+  max-width: 1192px;
+  margin: 0 auto;
+}
+
+.projects_container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.title {
+  font-family: TT Hoves, sans-serif;
+  font-size: 64px;
+  font-weight: 300;
+  line-height: 64px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #BDBDBD;
+  margin-bottom: 40px;
+}
+
+.first_image_container {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.first_image {
+  background-image: url("../assets/img/center.jpg");
+  width: 570px;
+  height: 255px;
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.first_image:hover {
+  opacity: 1;
+}
+.title_image {
+  font-family: TT Hoves, sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #FFFFFF;
+  padding-left: 40px;
+}
+
+.link_image {
+  display: flex;
+  align-self: flex-start;
+  padding-left: 40px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.projects_btn {
+  width: 160px;
+  height: 50px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: #FFFFFF;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.projects_btn:hover {
+  background: #333333;
+  border-radius: 8px;
+}
+
+.second_image_container {
+  display: flex;
+  gap: 35px;
+  margin-bottom: 20px;
+}
+
+.btn_to_projects {
+  width: 222px;
+  height: 70px;
+  background-color: #333333;
+  color: #FFFFFF;
+  border: none;
+  z-index: 10;
+  padding: 0;
+  cursor: pointer;
+  margin: 25px 0 0 0;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  align-self: flex-end;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn_to_projects:hover {
+  background: #737373;
+  border-radius: 8px;
+}
+
+.link_images {
+  display: flex;
+  align-self: flex-end;
+  text-decoration: none;
+  text-align: center;
+}
