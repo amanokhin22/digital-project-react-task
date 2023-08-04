@@ -137,11 +137,18 @@
   .projects_main {
     max-width: 640px;
   }
+  .title {
+    text-align: center;
+    font-size: 40px;
+  }
   .first_image_container {
     flex-direction: column;
   }
   .second_image_container {
     display: none;
+  }
+  .link_images {
+    align-self: center;
   }
 }
 
@@ -168,6 +175,9 @@
     height: 24px;
   }
   .link_image {
+    align-self: center;
+  }
+  .link_images {
     align-self: center;
   }
   .second_image_container {

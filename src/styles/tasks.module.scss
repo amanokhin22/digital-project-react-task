@@ -43,7 +43,6 @@
   .tasks_section {
     max-width: 1080px;
   }
-
 }
 
 @media (max-width: 1024px) {
@@ -65,6 +64,13 @@
   .tasks_section {
     max-width: 640px;
   }
+  .tasks_container {
+    margin-bottom: 40px;
+  }
+  .title {
+    text-align: center;
+    font-size: 40px;
+  }
   .tasks_blocks {
     flex-direction: column;
   }
@@ -72,9 +78,21 @@
 
 @media (max-width: 480px) {
   .tasks_section {
-    max-width: 400px;
+    display: none;
+  }
+  .tasks_container {
+    margin-bottom: 40px;
+  }
+  .title {
+    text-align: center;
+    font-size: 40px;
   }
   .tasks_blocks {
     flex-direction: column;
+  }
+
+  .block img {
+    width: 50px;
+    height: 100px;
   }
 }

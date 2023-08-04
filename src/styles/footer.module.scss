@@ -93,6 +93,7 @@
   }
   .upper_block {
     flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -102,6 +103,22 @@
   }
   .upper_block {
     flex-direction: column;
+    gap: 15px;
+
+  }
+  .bottom_logo img {
+    display: none;
+  }
+  .footer_information {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .block {
+    flex-direction: column;
+  }
+  .contacts {
+    gap: 10px;
   }
 }
 
@@ -110,6 +127,17 @@
     max-width: 400px;
   }
   .upper_block {
+    flex-direction: row;
+    gap: 15px;
+  }
+  .bottom_logo img {
+    display: none;
+  }
+  .block {
     flex-direction: column;
+  }
+  .pages {
+    display: flex;
+    gap: 5px;
   }
 }

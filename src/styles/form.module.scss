@@ -181,6 +181,9 @@
   .form_main {
     max-width: 768px;
   }
+  .form_container {
+    align-items: center;
+  }
   .block img {
     display: none;
   }
@@ -194,12 +197,26 @@
   .form_main {
     max-width: 640px;
   }
+  .form_container {
+    align-items: center;
+  }
+  .block {
+    gap: 0;
+  }
   .block img {
     display: none;
   }
   .title {
-    font-size: 35px;
+    font-size: 40px;
+    text-align: center;
     margin: 0 0 15px 0;
+  }
+  .modalForm {
+    display: flex;
+    flex-direction: column;
+  }
+  .formFillingButton {
+    align-self: center;
   }
 }
 
@@ -207,11 +224,24 @@
   .form_main {
     max-width: 400px;
   }
+  .form_container {
+    align-items: center;
+  }
   .block img {
     display: none;
   }
   .title {
     font-size: 30px;
     margin: 0 0 15px 0;
+  }
+  .block {
+    gap: 0;
+  }
+  .modalForm {
+    display: flex;
+    flex-direction: column;
+  }
+  .formFillingButton {
+    align-self: center;
   }
 }
