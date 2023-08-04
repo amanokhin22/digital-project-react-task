@@ -26,7 +26,8 @@
 }
 
 .modalForm {
-  display: block;
+  display: flex;
+  flex-direction: column;
   margin-top: 0;
   pointer-events: all;
 }
@@ -200,6 +201,9 @@
   .title {
     font-size: 40px;
     margin: 0 0 15px 0;
+  }
+  .formFillingButton {
+    align-self: center;
   }
 }
 

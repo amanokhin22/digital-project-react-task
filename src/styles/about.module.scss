@@ -157,6 +157,12 @@
   .title {
     font-size: 40px;
   }
+  .third_image {
+    display: none;
+  }
+  .txt_block {
+    left: unset;
+  }
 }
 
 @media (max-width: 768px) {
