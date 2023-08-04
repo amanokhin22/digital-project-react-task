@@ -38,3 +38,43 @@
   text-align: left;
   color: #333333;
 }
+
+@media (max-width: 1280px) {
+  .tasks_section {
+    max-width: 1080px;
+  }
+
+}
+
+@media (max-width: 1024px) {
+  .tasks_section {
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 968px) {
+  .tasks_section {
+    max-width: 768px;
+  }
+  .tasks_blocks {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .tasks_section {
+    max-width: 640px;
+  }
+  .tasks_blocks {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .tasks_section {
+    max-width: 400px;
+  }
+  .tasks_blocks {
+    flex-direction: column;
+  }
+}

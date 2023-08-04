@@ -2,6 +2,7 @@
   max-width: 1192px;
   margin: 0 auto;
 }
+
 .swiper_container {
   display: flex;
   position: relative;
@@ -116,4 +117,63 @@
 
 .look_btn img {
   padding-left: 10px;
+}
+
+@media (max-width: 1280px) {
+  .main {
+    max-width: 1080px;
+  }
+  .swiper_container {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .swiper_title {
+    padding-bottom: 35px;
+  }
+  .swiper_title_secondWord {
+    text-align: center;
+  }
+  .swiperNav {
+    margin-bottom: 30px;
+  }
+  .customPagination {
+    display: none;
+  }
+  .swiperWrapper {
+    left: 210px;
+  }
+  .image {
+    width: 700px;
+    height: 750px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .main {
+    max-width: 900px;
+  }
+
+}
+
+@media (max-width: 968px) {
+  .main {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    max-width: 640px;
+  }
+  .image {
+    width: 570px;
+    height: 650px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main {
+    max-width: 400px;
+  }
 }

@@ -128,3 +128,45 @@
 .look_btn img {
   padding-left: 10px;
 }
+
+@media (max-width: 1280px) {
+  .about_main {
+    max-width: 1080px;
+  }
+  .title {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .about_main {
+    max-width: 900px;
+  }
+  .title {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 968px) {
+  .about_main {
+    max-width: 768px;
+  }
+  .title {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about_main {
+    max-width: 640px;
+  }
+  .title {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about_main {
+    max-width: 400px;
+  }
+}

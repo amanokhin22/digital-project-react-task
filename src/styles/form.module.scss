@@ -40,6 +40,34 @@
   font-weight: 400;
   color: rgb(92, 92, 92);
   position: relative;
+
+  input {
+    width: 344px;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 9px 16px;
+    background: rgb(243, 244, 245);
+    border-radius: 8px;
+    border: 1px solid rgb(243, 244, 245);
+    font-family: Inter, sans-serif;
+    color: rgb(33, 33, 33);
+    outline: none;
+    margin: 8px 0 0;
+    position: relative;
+    text-overflow: ellipsis;
+  }
+
+  input::placeholder {
+    color: #8D8D8D;
+    position: relative;
+
+    &::before {
+      content: "*";
+      color: red;
+      position: absolute;
+      margin-left: 4px;
+    }
+  }
 }
 
 .formInput {
@@ -55,10 +83,21 @@
   outline: none;
   margin: 8px 0 0;
   position: relative;
+  text-overflow: ellipsis;
 }
+
+.formInput::placeholder {
+  color: #8D8D8D;
+
+}
+
+.formInput:focus::placeholder {
+  color: transparent;
+}
+
 .formInputLast {
-  height: 150px;
-  width: 344px;
+  height: 150px !important;
+  width: 344px !important;
   font-size: 16px;
   line-height: 19px;
   padding: 14px 16px;
@@ -66,16 +105,27 @@
   border-radius: 8px;
   border: 1px solid rgb(243, 244, 245);
   font-family: Inter, sans-serif;
-  color: rgb(33, 33, 33);
+  color: black;
   outline: none;
   margin: 8px 0 0;
   position: relative;
 }
-input::placeholder {
-  color: #000000;
+
+.formInputLast:focus::placeholder {
+  transform: translateY(-70px);
 }
-.formInputLast::placeholder {
-  //content: '* ';
+
+.formInputLast:focus::target-text {
+  transform: translateY(-70px);
+}
+
+.formInputLast::placeholder:before {
+  position: relative;
+  color: black;
+  content: (placeholder);
+}
+
+.FormInputStyled span {
   color: red;
 }
 

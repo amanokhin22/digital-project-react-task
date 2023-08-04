@@ -16,24 +16,26 @@ export const Projects = () => {
                     <div className={styles.first_image_container}>
                         <div className={styles.first_image}>
                             <span className={styles.title_image}>ДОСУГОВЫЙ ЦЕНТР</span>
-                           <Link className={styles.link_image} to={"https://www.chicago.gov/city/en/depts/dca/supp_info/chicago_culturalcenter.html"}>
-                               <button className={styles.projects_btn}>ПОДРОБНЕЕ
-                                   <img src={whiteArrow} alt="arrow"/>
-                               </button>
-                           </Link>
+                            <Link className={styles.link_image}
+                                  to={"https://www.chicago.gov/city/en/depts/dca/supp_info/chicago_culturalcenter.html"}>
+                                <button className={styles.projects_btn}>ПОДРОБНЕЕ
+                                    <img src={whiteArrow} alt="arrow"/>
+                                </button>
+                            </Link>
                         </div>
                         <img width={570} height={255} src={wheelHouse} alt="wheelHouse"/>
                     </div>
                     <div className={styles.second_image_container}>
-                        <img width={270} height={255}  src={stadium} alt="stadium"/>
+                        <img width={270} height={255} src={stadium} alt="stadium"/>
                         <img width={470} height={255} src={neighborhood} alt="neighborhood"/>
                         <img width={370} height={255} src={park} alt="park"/>
                     </div>
                 </div>
-                <Link className={styles.link_images} to={"https://www.chicago.gov/city/en/depts/dca/supp_info/chicago_culturalcenter.html"}>
-                <button className={styles.btn_to_projects}>ВСЕ ПРОЕКТЫ
-                    <img src={whiteArrow} alt="arrow"/>
-                </button>
+                <Link className={styles.link_images}
+                      to={"https://www.chicago.gov/city/en/depts/dca/supp_info/chicago_culturalcenter.html"}>
+                    <button className={styles.btn_to_projects}>ВСЕ ПРОЕКТЫ
+                        <img src={whiteArrow} alt="arrow"/>
+                    </button>
                 </Link>
             </div>
         </section>

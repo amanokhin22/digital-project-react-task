@@ -21,14 +21,14 @@ export const Form = () => {
                         <label className={styles.FormInputStyled}>
                             <input
                                 type="tel"
-                                placeholder="Номер телефона*"
+                                placeholder="Номер телефона"
                                 className={styles.formInput}
                             />
                         </label>
                         <label className={styles.FormInputStyled}>
                             <input
                                 type="email"
-                                placeholder="E-mail*"
+                                placeholder="E-mail"
                                 className={styles.formInput}
                             />
                         </label>
@@ -40,9 +40,8 @@ export const Form = () => {
                             />
                         </label>
                         <label className={styles.FormInputStyled}>
-                            <input
-                                type="text"
-                                placeholder="Сообщение*"
+                            <textarea
+                                placeholder="Сообщение"
                                 id="text"
                                 className={styles.formInputLast}
                             />

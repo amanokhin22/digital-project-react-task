@@ -37,9 +37,11 @@
   justify-content: center;
   gap: 20px;
 }
+
 .first_image:hover {
   opacity: 1;
 }
+
 .title_image {
   font-family: TT Hoves, sans-serif;
   font-size: 64px;
@@ -111,4 +113,46 @@
   align-self: flex-end;
   text-decoration: none;
   text-align: center;
+}
+
+@media (max-width: 1280px) {
+  .projects_main {
+    max-width: 1080px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .projects_main {
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 968px) {
+  .projects_main {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 768px) {
+  .projects_main {
+    max-width: 640px;
+  }
+  .first_image_container {
+    flex-direction: column;
+  }
+  .second_image_container {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects_main {
+    max-width: 400px;
+  }
+  .first_image_container {
+    flex-direction: column;
+  }
+  .second_image_container {
+    display: none;
+  }
 }
