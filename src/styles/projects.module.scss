@@ -127,11 +127,17 @@
   .second_image_container {
     display: none;
   }
+  .title {
+    text-align: center;
+  }
 }
 
 @media (max-width: 1024px) {
   .projects_main {
     max-width: 900px;
+  }
+  .title {
+    text-align: center;
   }
 }
 
