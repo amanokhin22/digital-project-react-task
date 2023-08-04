@@ -152,6 +152,24 @@
   .first_image_container {
     flex-direction: column;
   }
+  .first_image_container img {
+    width: 400px;
+    height: 200px;
+  }
+  .first_image {
+    width: 400px;
+    height: 200px;
+    span {
+      font-size: 30px;
+    }
+  }
+  .projects_btn img {
+    width: 24px;
+    height: 24px;
+  }
+  .link_image {
+    align-self: center;
+  }
   .second_image_container {
     display: none;
   }
