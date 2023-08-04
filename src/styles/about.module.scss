@@ -151,6 +151,9 @@
   .about_main {
     max-width: 768px;
   }
+  .about_container {
+    padding: unset;
+  }
   .title {
     font-size: 40px;
   }
@@ -185,6 +188,9 @@
   .title {
     font-size: 40px;
     text-align: center;
+  }
+  .third_image {
+    display: none;
   }
   .look_btn {
     align-self: center;

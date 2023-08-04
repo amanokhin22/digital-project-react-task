@@ -52,7 +52,7 @@ export const Form = () => {
                             <img src={whiteArrow} alt="arrow"/>
                         </button>
                     </form>
-                    <div>
+                    <div className={styles.connect}>
                         <img width={780} height={370} src={connect} alt="connect"/>
                     </div>
                 </div>

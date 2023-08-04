@@ -19,7 +19,7 @@ function App() {
                 <Projects/>
                 <Form/>
             </main>
-            <Footer/>
+
         </div>
     );
 }

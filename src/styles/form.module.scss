@@ -165,6 +165,9 @@
   .form_main {
     max-width: 1080px;
   }
+  .block {
+    gap: 20px;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -174,6 +177,13 @@
   .title {
     font-size: 40px;
     margin: 0 0 25px 0;
+  }
+  .block {
+    gap: 15px;
+  }
+  .connect img {
+    width: 570px;
+    height: 270px;
   }
 }
 

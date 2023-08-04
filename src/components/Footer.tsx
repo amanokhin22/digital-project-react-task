@@ -19,15 +19,14 @@ export const Footer = () => {
                     <div className={styles.bottom_logo}>
                         <img src={logoBottom} alt="logoBottom"/>
                     </div>
-                    <div className={styles.footer_information}>
                         <div className={styles.block}>
                             <span className={styles.block_title}>Информация</span>
                             <div className={styles.pages}>
-                                <span className={styles.block_part}>Главная</span>
-                                <span className={styles.block_part}>Галерея</span>
-                                <span className={styles.block_part}>Проекты</span>
-                                <span className={styles.block_part}>Сертификаты</span>
-                                <span className={styles.block_part}>Контакты</span>
+                                <Link to="#"><span className={styles.block_part}>Главная</span></Link>
+                                <Link to="#"><span className={styles.block_part}>Галерея</span></Link>
+                                <Link to="#"><span className={styles.block_part}>Проекты</span></Link>
+                                <Link to="#"><span className={styles.block_part}>Сертификаты</span></Link>
+                                <Link to="#"><span className={styles.block_part}>Контакты</span></Link>
                             </div>
                         </div>
                         <div className={styles.contacts}>
@@ -45,11 +44,11 @@ export const Footer = () => {
                             </div>
                             <div className={styles.little_block}>
                                 <span className={styles.block_part}><img src={phone} alt="phone"/></span>
-                                <span className={styles.block_part}>+38 (000) 000 00 00</span>
+                                <a href="tel:+380000000000" className={styles.block_part}>+38 (000) 000 00 00</a>
                             </div>
                             <div className={styles.little_block}>
                                 <span className={styles.block_part}><img src={mail} alt="mail"/></span>
-                                <span className={styles.block_part}>mail@gmail.com</span>
+                                <a href="mailto:mail@gmail.com" className={styles.block_part}>mail@gmail.com</a>
                             </div>
                         </div>
                         <div className={styles.block}>
@@ -69,7 +68,6 @@ export const Footer = () => {
                                 </Link>
                             </div>
                         </div>
-                    </div>
                 </div>
             </div>
             <div className={styles.bottom_block}>© 2019 Digital Project. Все права защищены.</div>
